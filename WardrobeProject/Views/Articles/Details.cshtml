@@ -1,0 +1,74 @@
+﻿@model WardrobeProject.Models.Article
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ArticleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArticleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArticleImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArticleImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArticleType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArticleType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClothingType.ClothingType1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClothingType.ClothingType1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Color.ColorType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color.ColorType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Occasion.OccasionType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Occasion.OccasionType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season.SeasonType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season.SeasonType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ArticleID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
