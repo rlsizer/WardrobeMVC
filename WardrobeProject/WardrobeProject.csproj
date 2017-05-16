@@ -230,6 +230,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AudreyBusinessWhiteShirt.jpg" />
+    <Content Include="Content\AudreyCasualGraySweater.jpg" />
+    <Content Include="Content\AudreyCasualWhiteShirt.jpg" />
+    <Content Include="Content\AudreyFormalWhiteShirt.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
