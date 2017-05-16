@@ -230,6 +230,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AudreyBlackTiffanyDress.jpg" />
     <Content Include="Content\AudreyBusinessBlackPants.jpg" />
     <Content Include="Content\AudreyBusinessWhiteShirt.jpg" />
     <Content Include="Content\AudreyCasualBluePants.jpg" />
@@ -243,6 +244,7 @@
     <Content Include="Content\AudreysRedHeels.jpg" />
     <Content Include="Content\AudreysStrappySandals.jpg" />
     <Content Include="Content\AudreysWhiteFormalShoes.jpg" />
+    <Content Include="Content\AudreyWhiteAscotDress.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
