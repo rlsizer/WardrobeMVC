@@ -19,6 +19,32 @@ namespace WardrobeProject.Controllers
         {
             return View(db.ClothingTypes.ToList());
         }
+        // GET: Tops
+        public ActionResult Tops()
+        {
+            return View();
+        }
+        // GET: Bottoms
+        public ActionResult Bots()
+        {
+            return View();
+        }
+        //GET: Shoes
+        public ActionResult Shoes()
+        {
+            return View();
+        }
+        //GET: Accessories
+        public ActionResult Accessories()
+        {
+            return View();
+        }
+        //GET: Dresses
+        public ActionResult Dresses()
+        {
+            return View();
+        }
+
 
         // GET: ClothingTypes/Details/5
         public ActionResult Details(int? id)

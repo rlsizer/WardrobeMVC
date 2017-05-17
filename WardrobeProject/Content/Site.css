@@ -23,10 +23,15 @@ select,
 textarea {
     max-width: 280px;
 }
-.navbar{
-    background-color:#000000;
-    
+
+/* navbar / bootstrap dropdown hover menu*/
+nav {
+  margin-top: -40px;
+  box-shadow: 5px 4px 5px #000;
+  font-family:Playfair Display SC;
+  font-size:18px;
 }
+
 .divider {
   height: 1px;
   width:100%;
@@ -39,7 +44,7 @@ textarea {
 .homejumbotron{
     max-height:160px;
     background-color:#000000;
-    margin-top: -30px;
+    margin-top: -60px;
     margin-bottom:-20px;
     
 }
@@ -58,7 +63,7 @@ textarea {
     margin-bottom: 10px;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 40%; height:470px;
+    width: 50%; height:470px;
     margin: 0 auto;
 }
 .wdh2,.audreysiteh2{
@@ -69,4 +74,18 @@ textarea {
     font-family:Cormorant Garamond;
     color:#e5e5e5;
     font-size:16px;
+}
+h2{
+    font-family:playfair display;
+    color:#e5e5e5;
+
+}
+.dl-horizontal{
+    font-family:Cormorant Garamond;
+    color:#e5e5e5;
+
+}
+.thumbnail{
+    width: 80%;
+    
 }

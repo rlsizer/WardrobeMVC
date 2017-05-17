@@ -4,22 +4,21 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Clothing Type</h2>
 
 <div>
-    <h4>ClothingType</h4>
+    <h4>@Html.DisplayFor(model => model.ClothingType1)</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.ClothingType1)
-        </dt>
+    <div class="dl-horizontal">
+        
+        
+        <hr />
+       
 
-        <dd>
-            @Html.DisplayFor(model => model.ClothingType1)
-        </dd>
+    </div>
+    </div>
 
-    </dl>
-</div>
+
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ClothingTypeID }) |
     @Html.ActionLink("Back to List", "Index")

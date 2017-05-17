@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Audrey's Wardrobe</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -13,17 +13,19 @@
 <div class="row">
     @foreach (var item in Model)
     {
-        <div class="col-sm-6 col-md-4">
+        
+        <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
                 <div class="caption text-center">
                     <h3>@Html.DisplayFor(modelItem => item.ArticleName)</h3>
-                    <p><img src="@Url.Content(item.ArticleImage)" class="img-thumbnail" />
+                    <p><img src="@Url.Content(item.ArticleImage)" class="img-thumbnail img-responsive" />
                    
                     </p>
                     <p>@Html.ActionLink("View Details", "Details", new { id = item.ArticleID }, new { role = "button", @class = "btn btn-primary" })</p>
                 </div>
             </div>
         </div>
+         
     }
 </div>
 

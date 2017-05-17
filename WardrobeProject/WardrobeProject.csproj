@@ -362,9 +362,15 @@
     <Content Include="Views\Seasons\Details.cshtml" />
     <Content Include="Views\Seasons\Edit.cshtml" />
     <Content Include="Views\Seasons\Index.cshtml" />
+    <Content Include="Views\ClothingTypes\Tops.cshtml" />
+    <Content Include="Views\ClothingTypes\Bots.cshtml" />
+    <Content Include="Views\ClothingTypes\Shoes.cshtml" />
+    <Content Include="Views\ClothingTypes\Accessories.cshtml" />
+    <Content Include="Views\ClothingTypes\Dresses.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Tops\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
