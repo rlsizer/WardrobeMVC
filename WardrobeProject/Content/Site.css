@@ -66,11 +66,31 @@ nav {
     width: 50%; height:470px;
     margin: 0 auto;
 }
+.maincarousel > .item > img, .maincarousel > .item > a > img{
+    width: 40%;
+    height:470px;
+    margin: 0 auto;
+}
+.dresscarousel > .item > img, .dresscarousel > .item > a > img{
+    width: 40%;
+    height:470px;
+    margin: 0 auto;
+}
+.accesscarousel > .item > img, .accesscarousel > .item > a > img{
+    width:47%;
+    height: 470px;
+    margin: 0 auto;
+}
+.topscarousel > .item > img, .topscarousel > .item > a > img{
+    width:50%;
+    height:495px;
+    margin: 0 auto;
+}
 .wdh2,.audreysiteh2{
     font-family:lora;
     color:#e5e5e5;
 }
-.wdpar,.audreysitepar{
+.wdpar,.audreysitepar,h3{
     font-family:Cormorant Garamond;
     color:#e5e5e5;
     font-size:16px;
@@ -88,4 +108,14 @@ h2{
 .thumbnail{
     width: 80%;
     
+}
+.about{
+    font-family:playball;
+    font-size:20px;
+    color:aqua;
+}
+.address,.email{
+    font-family:Playfair Display SC;
+    color:#e5e5e5;
+
 }
