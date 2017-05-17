@@ -9,7 +9,29 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <div class="caption text-center">
+                    <h3>@Html.DisplayFor(modelItem => item.ArticleName)</h3>
+                    <p><img src="@Url.Content(item.ArticleImage)" class="img-thumbnail" />
+                   
+                    </p>
+                    <p>@Html.ActionLink("View Details", "Details", new { id = item.ArticleID }, new { role = "button", @class = "btn btn-primary" })</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+
+@*<table class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.ArticleName)
@@ -33,9 +55,9 @@
             @Html.DisplayNameFor(model => model.Season.SeasonType)
         </th>
         <th></th>
-    </tr>
+    </tr>*@
 
-@foreach (var item in Model) {
+@*@foreach (var item in Model) {
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.ArticleName)
@@ -44,7 +66,8 @@
             <img src="@Url.Content(item.ArticleImage)" 
                  class="img-thumbnail"
                  />
-            @*@Html.DisplayFor(modelItem => item.ArticleImage)*@
+            @@*
+    @* @Html.DisplayFor(modelItem => item.ArticleImage)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.ArticleType)
@@ -69,4 +92,4 @@
     </tr>
 }
 
-</table>
+</table>*@

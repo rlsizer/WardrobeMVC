@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:#000000;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,14 +23,50 @@ select,
 textarea {
     max-width: 280px;
 }
+.navbar{
+    background-color:#000000;
+    
+}
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
 
+.homejumbotron{
+    max-height:160px;
+    background-color:#000000;
+    margin-top: -30px;
+    margin-bottom:-20px;
+    
+}
+.homejumbofont{
+    font-family:playfair display;
+    color:#e5e5e5;
+}
+.jumbotron h1{
+    font-size: 40px;
+    text-align:center;
+}
 .carousel {
     background-color: #000000;
     color: #000000;
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 40%; height:480px;
+    width: 40%; height:470px;
     margin: 0 auto;
+}
+.wdh2,.audreysiteh2{
+    font-family:lora;
+    color:#e5e5e5;
+}
+.wdpar,.audreysitepar{
+    font-family:Cormorant Garamond;
+    color:#e5e5e5;
+    font-size:16px;
 }

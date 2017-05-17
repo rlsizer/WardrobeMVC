@@ -2,6 +2,12 @@
     ViewBag.Title = "Home Page";
 }
 
+@**Jumbotron*@
+<div class="jumbotron homejumbotron">
+    <div class="homejumbofont">
+        <h1>Audrey Hepburn's Iconic Wardrobe</h1>
+    </div>
+</div>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -36,25 +42,23 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+    <div class="col-md-6">
+        <h2 class="wdh2">Audrey's Wardrobe</h2>
+        <p class="wdpar">View the legendary styles and fashions of Audrey's clothing collection.</p>
+        <p><a class="btn btn-default" href="~/Articles">Check it out &raquo;</a></p>
         <div>
-            @Html.ActionLink("Articles link","Index","Articles")
+            @*@Html.ActionLink("Articles link","Index","Articles")
             @Html.ActionLink("Clothing types link","Index","ClothingTypes")
             @Html.ActionLink("Color link","Index","Colors")
             @Html.ActionLink("Occasion link","Index","Occasions")
-            @Html.ActionLink("Seasons link","Index","Seasons")
+            @Html.ActionLink("Seasons link","Index","Seasons")*@
 
         </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="col-md-6">
+        <h2 class="audreysiteh2">Audrey's Official Site</h2>
+        <p class="audreysitepar">Visit the official website of Audrey Hepburn and the Audrey Hepburn Children's Fund.</p>
+        <p><a class="btn btn-default" href="http://www.audreyhepburn.com/menu/index02.php" target="_blank">Visit the Site &raquo;</a></p>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+    
 </div>
