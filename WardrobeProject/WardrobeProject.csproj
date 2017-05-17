@@ -230,21 +230,28 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AudreyBlackHat.jpg" />
     <Content Include="Content\AudreyBlackTiffanyDress.jpg" />
     <Content Include="Content\AudreyBusinessBlackPants.jpg" />
     <Content Include="Content\AudreyBusinessWhiteShirt.jpg" />
+    <Content Include="Content\AudreyCarouselBW.jpg" />
+    <Content Include="Content\AudreyCarouselColor.jpg" />
+    <Content Include="Content\AudreyCarouselTiffany.jpg" />
     <Content Include="Content\AudreyCasualBluePants.jpg" />
     <Content Include="Content\AudreyCasualGraySweater.jpg" />
     <Content Include="Content\AudreyCasualWhiteShirt.jpg" />
     <Content Include="Content\AudreyCasualWhiteShorts.jpg" />
+    <Content Include="Content\AudreyDarkShades.gif" />
     <Content Include="Content\AudreyFormalBlackPants.jpg" />
     <Content Include="Content\AudreyFormalGreenSuit.jpg" />
     <Content Include="Content\AudreyFormalWhiteShirt.jpg" />
+    <Content Include="Content\AudreyRedScarf.png" />
     <Content Include="Content\AudreysCrystalPumps.jpg" />
     <Content Include="Content\AudreysRedHeels.jpg" />
     <Content Include="Content\AudreysStrappySandals.jpg" />
     <Content Include="Content\AudreysWhiteFormalShoes.jpg" />
     <Content Include="Content\AudreyWhiteAscotDress.jpg" />
+    <Content Include="Content\AudreyWhiteShades.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

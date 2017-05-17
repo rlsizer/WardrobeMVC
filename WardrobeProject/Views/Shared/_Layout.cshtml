@@ -6,6 +6,15 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @*FontLoader Javascript to access Google Fonts*@
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script type="text/javascript">
+  WebFont.load({
+    google: {
+      families: ['Lora','Playfair Display','Cormorant Garamond']
+    }
+  });
+    </script>
 
 </head>
 <body>

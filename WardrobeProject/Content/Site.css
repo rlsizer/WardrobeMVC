@@ -22,3 +22,14 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.carousel {
+    background-color: #000000;
+    color: #000000;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 40%; height:480px;
+    margin: 0 auto;
+}
